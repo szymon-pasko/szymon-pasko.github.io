@@ -49,3 +49,19 @@ height: 100px;
 	width: 100px;
 	background-color: blue;
 }
+
+.wantstofly:focus{
+	animation-name: bounce;
+	background: #bad;
+	outline: none;
+}
+
+.submenu {
+	border: 1px solid #353;
+	display: none;
+
+}
+
+.submenu:target{
+	display: block;
+}
