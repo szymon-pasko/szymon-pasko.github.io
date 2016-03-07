@@ -79,6 +79,11 @@ margin-bottom: 20px;
 }
 
 
+.save{
+	/*animation-name: slideInDown;*/
+	display: none;
+}
+
 /*.wraper{
 	background: rgba(220,160,30,0.8);
 	height: 1000px;
@@ -90,4 +95,12 @@ margin-bottom: 20px;
 }
 .article{
 	height: 200px;
+	margin: 1%;
+	background-color: rgb(200,200,200);
+}
+
+@media screen and (max-width: 750px) {
+    .article {
+        width: 50%;
+    }
 }
