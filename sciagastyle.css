@@ -1,0 +1,68 @@
+
+.box1 {
+background-color: red;
+height: 100px;
+}
+.box2 {
+background-color: blue;
+height: 100px;
+}
+
+.gallerybox {
+	position: relative;
+
+}
+.gallerybox p{
+	display: none;
+}
+.gallerybox:hover p{
+	display: block;
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,255,55,0.5);
+	text-align: center;
+	padding-top: 25%;
+	font-size: 2em;
+}
+
+.login {
+	background-color: black;
+/*	border-radius: 5%;*/
+	margin-top: 40px;
+}
+
+.loginbutton {
+
+	/*margin-top: 40px;*/
+	margin-bottom: 40px;
+}
+
+.gallerybox {
+
+	margin-bottom: 40px;
+}
+
+.wantstofly {
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+}
+
+.wantstofly:focus{
+	animation-name: bounce;
+	background: #bad;
+	outline: none;
+}
+
+.submenu {
+	border: 1px solid #353;
+	display: none;
+
+}
+
+.submenu:target{
+	display: block;
+}

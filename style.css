@@ -1,67 +1,93 @@
-.box1 {
-background-color: red;
-height: 100px;
+.logintxt {
+	margin-top: 10px;
+
 }
-.box2 {
-background-color: blue;
-height: 100px;
+
+.login {
+	margin-top: 40px;
+	
+}
+
+.glyphicon-user{
+	margin-top: 17px;
+}
+
+.login{
+	animation-name: fadeInUp;
+}
+
+.nologin{
+	animation-name: fadeOutDown;
+}
+
+.createAccount{
+	animation-name: fadeInUp;
+	margin-top: 40px;
+}
+.noCreateAccount{
+	animation-name: fadeOutDown;
+
+	/*display: block;*/
+}	
+
+.profile{
+	animation-name: fadeInUp;
+	margin-top: 40px;
 }
 
 .gallerybox {
-	position: relative;
-
+	position: absolute;
+	margin-top: 50px;
 }
+
 .gallerybox p{
 	display: none;
 }
-.gallerybox:hover p{
+/*.gallerybox:hover p{
 	display: block;
 	position: absolute;
 	top: 0;
 	left:0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0,255,55,0.5);
+
+	background-color: rgba(100,100,100,0.5);
 	text-align: center;
 	padding-top: 25%;
 	font-size: 2em;
 }
+*/
 
-.login {
-	background-color: black;
-/*	border-radius: 5%;*/
-	margin-top: 40px;
+.gallerybox:hover {
+	animation-name: pulse;
 }
 
-.loginbutton {
 
-	/*margin-top: 40px;*/
-	margin-bottom: 40px;
+
+.photo{
+margin-bottom: 20px;
 }
 
-.gallerybox {
-
-	margin-bottom: 40px;
-}
-
-.wantstofly {
-	height: 100px;
-	width: 100px;
-	background-color: blue;
-}
-
-.wantstofly:focus{
-	animation-name: bounce;
-	background: #bad;
-	outline: none;
-}
-
-.submenu {
-	border: 1px solid #353;
+.hide{
 	display: none;
 
 }
 
-.submenu:target{
+.show{
+	/*animation-name: slideInDown;*/
 	display: block;
+}
+
+
+/*.wraper{
+	background: rgba(220,160,30,0.8);
+	height: 1000px;
+
+}*/
+
+.loginbutton{
+	margin-bottom: 20px;
+}
+.article{
+	height: 200px;
 }

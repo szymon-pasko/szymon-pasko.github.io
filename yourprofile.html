@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Home</title>
+	<title>Profile</title>
 
     <link rel="stylesheet" href="style.css"> 
     <link rel="stylesheet" href="animate.css"> 
@@ -12,8 +12,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
 <body>
-	<div class=" wraper container-fluid">
-		
+	<div class="wraper container-fluid">
+
 		<!-- navbar -->
 		<nav class="navbar navbar-default">
 		  <div class="container-fluid">
@@ -62,19 +62,33 @@
 		  </div><!-- /.container-fluid -->
 		</nav>
 
-		<!-- logowanie -->
-		<div class="login animated col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-4">
-			<p class="lead">Hello!</p>
+		<!-- twoj profil -->
+		<div class="profile animated col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-4">
+			<div class="row">
+				<div class="photo col-xs-4 col-xs-offset-4">
+			                <img alt="pineapple" class="img-thumbnail img-responsive" src="200x200.jpg" >
+			    </div>
+			</div>
+
 			<div class="form-group">
-               	<label for="exampleInputLogin">Login</label>
-                <input type="login" class="form-control" id="exampleInputLogin" placeholder="Login">
+               	<label for="exampleInputLogin">First name</label>
+                <input type="login" class=" hide animated form-control" id="exampleInputLogin" placeholder="First name">
+            </div>
+            <div class="form-group">
+               	<label for="exampleInputLogin">Second name</label>
+                <input type="login" class=" hide animated form-control" id="exampleInputLogin" placeholder="Second name">
+            </div>
+            <div class="form-group">
+               	<label for="exampleInputLogin">E-mail</label>
+                <input type="login" class=" hide animated form-control" id="exampleInputLogin" placeholder="E-mail">
             </div>
             <div class="form-group">
                 <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <input type="password" class=" hide animated form-control" id="exampleInputPassword1" placeholder="Password">
             </div>
-            <a href="main.html" type="button" class="loginbutton btn btn-default btn-lg btn-block" >login</a>
-            <a class="restore" href="restorepassword.html">forgot the password?</a> | <a href="createaccount.html" class="noAccount" >don't have an account?</a>
+        
+             <button type="button" class="edit btn btn-default btn-xs">Edit</button>
+
 		</div>
 	
 		
